@@ -1,0 +1,228 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  color: white;
+}
+nav {
+  color: black;
+}
+img {
+  overflow: clip;
+  width: 279px;
+  height: 99px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-right: 550px;
+  margin: -12px;
+  font-size: 15px;
+  flex-direction: row;
+  font-style: Roboto, Oxygen, Ubuntu, "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+}
+nav li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 2 px;
+  gap: 18px;
+  padding-right: 10px;
+  align-items: center;
+}
+li :nth-child(1) {
+  margin-right: -19px;
+}
+li :nth-child(5) {
+  margin-right: -19px;
+}
+li :nth-child(3) {
+  margin-right: -19px;
+}
+
+.diff svg {
+  position: relative;
+  top: 2px;
+  left: 362px;
+}
+.btn1 :nth-child(1) {
+  position: relative;
+  top: -1px;
+  left: 373px;
+  background: #324fb9;
+  padding: 3px;
+  z-index: 10;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+}
+.btn2 :nth-child(1) {
+  position: relative;
+  top: -1px;
+  left: 380px;
+  background-color: transparent;
+  padding: 3px;
+  z-index: 10;
+  border: none;
+  color: #324fb9;
+  padding: 4px 8px;
+  font-size: 11px;
+}
+.line {
+  flex-direction: column;
+  color: rgb(172, 172, 172);
+  height: 19px;
+  width: 0px;
+  border: 1px solid rgb(139, 139, 139);
+  position: relative;
+  left: 369px;
+  opacity: 0.9;
+}
+.second {
+  margin: auto;
+}
+.second img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  display: flex;
+  max-width: 122%;
+  justify-content: center;
+  padding: 45px;
+  margin-left: 16vw;
+  object-fit: cover;
+  width: 456px;
+  height: 147px;
+}
+.second video {
+  height: 558px;
+  width: 855px;
+  position: absolute;
+  margin-left: 51vw;
+  margin-top: -215px;
+  height: 605px;
+}
+.dates {
+  font-size: 23px;
+  margin-left: 176px;
+  color: black;
+  display: flex;
+  text-align: center;
+}
+.h2 {
+  color: black;
+  width: 26%;
+  margin-top: 18px;
+  margin-left: 350px;
+  font-size: 22px;
+}
+.h2 h3 {
+  color: black;
+  margin-top: 37px;
+  font-weight: 100;
+}
+.h2 button {
+  background-color: transparent;
+  padding: 3px;
+  z-index: 10;
+  border: none;
+  background-color: #324fb9;
+  color: #ffffff;
+  padding: 8px 15px;
+  font-size: 13px;
+  border-radius: 4px;
+  margin-top: 32px;
+}
+.third {
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #324fb9;
+  color: white;
+  height: 206px;
+  width: 46vw;
+
+  left: 539px;
+  position: absolute;
+  box-shadow: black;
+}
+
+h2 {
+  margin-left: 292px;
+  font-size: 54px;
+  margin-top: 29px;
+}
+h5 {
+  margin-left: 303px;
+  font-size: 19px;
+  margin-top: 22px;
+}
+.third img {
+  object-fit: cover;
+  overflow: clip;
+  width: 350px;
+  height: 204px;
+  position: absolute;
+  left: 1px;
+  bottom: 1px;
+}
+.third h1 {
+  color: black;
+  margin-top: 107px;
+  font-size: 37px;
+  text-align: center;
+}
+.btn3 {
+  display: flex;
+  margin-top: 20px;
+  gap: 9px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn3 :nth-child(1) {
+  background-color: #324fb9;
+  color: white;
+  padding: 19px 58px;
+  border-style: none;
+  border-radius: 16px;
+  font-size: 18px;
+}
+.btn3 :nth-child(2) {
+  background-color: #324fb9;
+  color: white;
+  padding: 19px 58px;
+  border-style: none;
+  border-radius: 16px;
+  font-size: 18px;
+}
+.btn3 :nth-child(3) {
+  background-color: #324fb9;
+  color: white;
+  padding: 19px 58px;
+  border-style: none;
+  border-radius: 16px;
+  font-size: 18px;
+}
+.fourth {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.fourth h1 {
+  color: black;
+  margin-top: 107px;
+  font-size: 37px;
+  text-align: center;
+}
